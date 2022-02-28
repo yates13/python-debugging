@@ -25,9 +25,9 @@ def area_of_rectangle(height, width = None):
     Examples
     --------
     >>> area_of_rectangle(7)
-    49
+    49.0
     >>> area_of_rectangle (7, 2)
-    14
+    14.0
     """
     area = float(height) * float(width)
     return area
